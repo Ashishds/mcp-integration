@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "google-services": {
+      "command": "python",
+      "args": [
+        "/absolute/path/to/src/main_server.py"
+      ],
+      "env": {}
+    },
+    "postgresql-db": {
+      "command": "python",
+      "args": [
+        "/absolute/path/to/src/postgres_server.py"
+      ],
+      "env": {}
+    },
+    "mongodb": {
+      "command": "python",
+      "args": [
+        "/absolute/path/to/src/mongo_server.py"
+      ],
+      "env": {}
+    }
+  }
+}
+

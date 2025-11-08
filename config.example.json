@@ -1,0 +1,15 @@
+{
+  "google": {
+    "clientId": "your-client-id-here",
+    "clientSecret": "your-client-secret-here",
+    "redirectUri": "http://localhost",
+    "spreadsheetId": "your-spreadsheet-id-here",
+    "calendarId": "primary"
+  },
+  "database": {
+    "url": "postgresql://user:password@host:port/database?sslmode=require"
+  },
+  "mongodb": {
+    "uri": "mongodb+srv://username:password@cluster.mongodb.net/?retryWrites=true&w=majority"
+  }
+}
